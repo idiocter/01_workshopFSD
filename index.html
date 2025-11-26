@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bipul Regmi - Frontend Developer & UI/UX Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="hero">
+        <video autoplay loop muted id="video-background">
+            <source src="background-loop.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <nav class="navbar">
+            <span class="logo">Bipul Regmi</span>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation" id="menu-button">
+                ☰
+            </button>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Bipul Regmi</h1>
+            <p class="hero-subtitle">Frontend Developer • UI/UX Enthusiast • Tech Learner</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>
+                        I'm a passionate frontend developer who loves building clean, modern, and user-friendly interfaces.
+                        My journey began with curiosity about how websites function, and it has grown into a commitment to
+                        mastering web development, UI/UX design, and creative problem-solving.
+                    </p>
+                    <p>
+                        I focus heavily on consistent improvement, learning new technologies, and crafting smooth user
+                        experiences. I'm also exploring backend development and IoT innovation to expand my technical
+                        horizon.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills & Expertise</h2>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>Frontend Development</h3>
+                        <p>HTML, CSS, TailwindCSS, Responsive UI, Layouts</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript & React</h3>
+                        <p>ES6+, DOM, Async JS, APIs, React Components</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🛠️</div>
+                        <h3>Backend & Databases</h3>
+                        <p>PHP, MySQL, CRUD, API Integration</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">✨</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Figma, Wireframing, Prototyping, Accessibility</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🤖</div>
+                        <h3>AI & Python Basics</h3>
+                        <p>ML fundamentals, data handling, automation</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🔗</div>
+                        <h3>Tools & Workflow</h3>
+                        <p>Git, GitHub, VS Code, Linux, API Testing</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Featured Projects</h2>
+
+                <div id="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>Weather App</h3>
+                            <span class="project-tag">JavaScript • API</span>
+                        </div>
+                        <p>
+                            A dynamic weather dashboard using OpenWeather API with real-time data, search functionality, and clean UI animations.
+                        </p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>BioNet – IoT Plant Communication</h3>
+                            <span class="project-tag">IoT • Sensors</span>
+                        </div>
+                        <p>
+                            A unique IoT concept where plants send stress signals to each other and humans using sensor data. An ambitious ongoing project.
+                        </p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>Emotion-Based Music Generator</h3>
+                            <span class="project-tag">AI • Python • FL Studio</span>
+                        </div>
+                        <p>
+                            Prototype system that reads emotional cues and generates music patterns. Combines AI logic and production workflow.
+                        </p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>Currency Converter</h3>
+                            <span class="project-tag">React • API</span>
+                        </div>
+                        <p>
+                            Real-time currency converter with API integration, smooth UI, and instant value calculation.
+                        </p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>Password Generator</h3>
+                            <span class="project-tag">React</span>
+                        </div>
+                        <p>
+                            Customizable password generator with strength modes and clipboard support. Clean and user-friendly.
+                        </p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p class="contact-intro">Let's create something amazing together. Feel free to reach out.</p>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Bipul Regmi. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
